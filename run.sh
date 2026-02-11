@@ -60,7 +60,7 @@ case "${choice:-1}" in
     ;;
   2)
     echo "Starting OpenAI Codex (full-auto)..."
-    run_container bash -lc "codex --full-auto -a never"
+    run_container bash -lc "codex mcp remove agent_share >/dev/null 2>&1 || true; codex --full-auto -a never"
     ;;
   3)
     echo "Starting Bash shell..."

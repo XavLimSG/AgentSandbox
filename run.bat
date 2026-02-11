@@ -63,7 +63,7 @@ goto END
 
 :CODEX
 echo Starting OpenAI Codex (full-auto)...
-docker run -it --rm -v "%MOUNT_WORKSPACE%" -v "%MOUNT_CLAUDE_DIR%" -v "%MOUNT_CLAUDE_JSON%" -v "%MOUNT_CODEX%" %ENV_ARGS% %IMAGE% bash -lc "codex --full-auto -a never"
+docker run -it --rm -v "%MOUNT_WORKSPACE%" -v "%MOUNT_CLAUDE_DIR%" -v "%MOUNT_CLAUDE_JSON%" -v "%MOUNT_CODEX%" %ENV_ARGS% %IMAGE% bash -lc "codex mcp remove agent_share >/dev/null 2>&1 || true; codex --full-auto -a never"
 goto END
 
 :BASH

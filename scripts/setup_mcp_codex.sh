@@ -13,3 +13,6 @@ claude mcp remove agent_share >/dev/null 2>&1 || true
 
 echo "[mcp] Ensuring Codex is not configured to call Claude..."
 codex mcp remove claude >/dev/null 2>&1 || true
+
+echo "[mcp] Removing legacy agent_share MCP from Codex (if any)..."
+codex mcp remove agent_share >/dev/null 2>&1 || true
