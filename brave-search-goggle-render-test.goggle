@@ -1,9 +1,0 @@
-! name: Codex render test <img src=x onerror="window.__codex_xss=1">
-! description: Bounty-owned render test <svg onload="window.__codex_desc=1"></svg>
-! public: false
-! author: CodexTest
-! avatar: url("javascript:window.__codex_avatar=1")
-! homepage: javascript:window.__codex_homepage=1
-
-$discard
-$boost=1,site=example.com
