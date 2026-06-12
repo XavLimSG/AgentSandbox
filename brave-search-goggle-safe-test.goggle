@@ -1,4 +1,4 @@
-! name: Codex Safe Render Test
+! name: Codex name <img src=x onerror="window.__codex_xss=1">
 ! description: Bounty owned safe metadata control
 ! public: false
 ! author: CodexTest
