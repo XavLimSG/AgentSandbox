@@ -1,9 +1,0 @@
-! name: Codex Homepage Scheme Test
-! description: Bounty owned safe metadata control
-! public: false
-! author: CodexTest
-! avatar: #123456
-! homepage: javascript:window.__codex_homepage=1
-
-$discard
-$boost=1,site=example.com
