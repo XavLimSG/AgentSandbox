@@ -1,9 +1,9 @@
-! name: Codex name <img src=x onerror="window.__codex_xss=1">
+! name: Codex Homepage Scheme Test
 ! description: Bounty owned safe metadata control
 ! public: false
 ! author: CodexTest
 ! avatar: #123456
-! homepage: https://example.com/
+! homepage: javascript:window.__codex_homepage=1
 
 $discard
 $boost=1,site=example.com
