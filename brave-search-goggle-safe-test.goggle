@@ -1,0 +1,9 @@
+! name: Codex Safe Render Test
+! description: Bounty owned safe metadata control
+! public: false
+! author: CodexTest
+! avatar: #123456
+! homepage: https://example.com/
+
+$discard
+$boost=1,site=example.com
